@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{e07401b8-a63b-4375-918b-529688f9230c}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{a73b4dcf-5eac-4a99-aca0-a5561980d214}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{2d8d29a1-3399-4a1a-b88f-51ac086fa37d}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source files\benchmark">
+      <UniqueIdentifier>{11e428cf-e467-4008-a35b-e2fcae95a726}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\benchmark\sha1">
+      <UniqueIdentifier>{8c44aef6-9506-4aef-86d9-1c77b6c65d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\benchmark\aes">
+      <UniqueIdentifier>{14ca14c5-c4bd-492d-a554-00c98b923745}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\tests">
+      <UniqueIdentifier>{af059e97-24e9-438e-ab81-5d43eda1bfe7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\benchmark\mips">
+      <UniqueIdentifier>{f6c87ecb-c7dd-4748-afa9-4a2e27cee9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\benchmark\blowfish">
+      <UniqueIdentifier>{9e2b1019-fde3-4916-a2cc-b9f77b45c498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files\benchmark\mpeg2">
+      <UniqueIdentifier>{a0499d92-f467-44ba-af71-dc5f7fbe1731}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VisualDDKHelpers.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="tests.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(ProjectDir)\sources" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.c">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="sha.c">
+      <Filter>Source files\benchmark\sha1</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.c">
+      <Filter>Source files\benchmark\aes</Filter>
+    </ClCompile>
+    <ClCompile Include="tests.c">
+      <Filter>Source files\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="mips.c">
+      <Filter>Source files\benchmark\mips</Filter>
+    </ClCompile>
+    <ClCompile Include="bf.c">
+      <Filter>Source files\benchmark\blowfish</Filter>
+    </ClCompile>
+    <ClCompile Include="mpeg2.c">
+      <Filter>Source files\benchmark\mpeg2</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
