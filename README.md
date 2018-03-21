@@ -4,7 +4,7 @@ KTest is a Kernel Driver Fuzzer Benchmarking and Testing Suite
 
 ## Getting Started
 
-KTest consists of fuzzer coverage and speed benchmarking test functions gatherd from LLVM project, [CHStone](http://www.ertl.jp/chstone/) and other places. checkout TestEntries in [test.c](test.c) for more information.
+KTest consists of fuzzer coverage and speed benchmarking test functions gatherd from LLVM project, [CHStone](http://www.ertl.jp/chstone/) and other places. checkout TestEntries in [tests.c](tests.c) for more information.
 
 
 ## Built With
